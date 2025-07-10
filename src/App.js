@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   Outlet,
   createRoutesFromElements,
@@ -36,7 +36,7 @@ const Layout = () => {
     </div>
   );
 };
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route>
       <Route path="/" element={<Layout />}>
