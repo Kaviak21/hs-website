@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/hs-website/static/css/main.dbef4c8c.css",
+    "main.js": "/hs-website/static/js/main.db52e3b0.js",
+    "static/media/bannerImgThree.jpg": "/hs-website/static/media/bannerImgThree.83044c9ae90020fd2f00.jpg",
+    "static/media/bannerImgOne.jpg": "/hs-website/static/media/bannerImgOne.ac0b53737a70b1bc9705.jpg",
+    "static/media/saleImgOne.jpg": "/hs-website/static/media/saleImgOne.d12e9955f0dc6b5fd1d1.jpg",
+    "static/media/bannerImgTwo.jpg": "/hs-website/static/media/bannerImgTwo.2e576c4adfe2a136e0ee.jpg",
+    "static/media/saleImgThree.jpg": "/hs-website/static/media/saleImgThree.72f96f7fcd43646092c1.jpg",
+    "static/media/saleImgTwo.jpg": "/hs-website/static/media/saleImgTwo.15afced9eee84cea5ebb.jpg",
+    "static/media/productOfTheYear.jpg": "/hs-website/static/media/productOfTheYear.8a85a5046ebb1e8f28bc.jpg",
+    "static/media/Logo.png": "/hs-website/static/media/Logo.3f7fcef3ffd7a2022356.png",
+    "static/media/emptyCart.jpg": "/hs-website/static/media/emptyCart.b88bd1b851ee47fc1205.jpg",
+    "static/media/newArrThree.webp": "/hs-website/static/media/newArrThree.137dcefaee781098fd8a.webp",
+    "static/media/payment.png": "/hs-website/static/media/payment.3e00cc601c9e7fc1e7d3.png",
+    "static/media/bestSellerThree.webp": "/hs-website/static/media/bestSellerThree.8caffcd1cd1c67b4a340.webp",
+    "static/media/newArrFour.webp": "/hs-website/static/media/newArrFour.b8a5fda6839f2f0b1eaa.webp",
+    "static/media/bestSellerTwo.webp": "/hs-website/static/media/bestSellerTwo.c2641a76c189fcc71670.webp",
+    "static/media/bestSellerFour.webp": "/hs-website/static/media/bestSellerFour.0b34fdc5232f2dcf997b.webp",
+    "static/media/bestSellerOne.webp": "/hs-website/static/media/bestSellerOne.988208d74cc332fccc11.webp",
+    "static/media/spfThree.webp": "/hs-website/static/media/spfThree.226da6ea085a91db0352.webp",
+    "static/media/spfOne.webp": "/hs-website/static/media/spfOne.af2c5aa8d8015ffcccf4.webp",
+    "static/media/spfTwo.webp": "/hs-website/static/media/spfTwo.3dd358b9c31a7587b4d9.webp",
+    "static/media/spfFour.webp": "/hs-website/static/media/spfFour.d005441cba54d7214bf7.webp",
+    "static/media/newArrTwo.webp": "/hs-website/static/media/newArrTwo.bdc7d9372116bdf40cc4.webp",
+    "static/media/newArrOne.webp": "/hs-website/static/media/newArrOne.5982a995e5c312914fe6.webp",
+    "index.html": "/hs-website/index.html",
+    "main.dbef4c8c.css.map": "/hs-website/static/css/main.dbef4c8c.css.map",
+    "main.db52e3b0.js.map": "/hs-website/static/js/main.db52e3b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbef4c8c.css",
+    "static/js/main.db52e3b0.js"
+  ]
+}
