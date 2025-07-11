@@ -47,66 +47,67 @@ const NewArrivals = () => {
     ],
   };
   return (
-    <div className="w-full pb-16">
-      <Heading heading="New Arrivals" />
-      <Slider {...settings}>
-        <div className="px-2">
-          <Product
-            _id="100001"
-            img={newArrOne}
-            productName="Round Table Clock"
-            price="44.00"
-            color="Black"
-            badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
-          />
-        </div>
-        <div className="px-2">
-          <Product
-            _id="100002"
-            img={newArrTwo}
-            productName="Smart Watch"
-            price="250.00"
-            color="Black"
-            badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
-          />
-        </div>
-        <div className="px-2">
-          <Product
-            _id="100003"
-            img={newArrThree}
-            productName="cloth Basket"
-            price="80.00"
-            color="Mixed"
-            badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
-          />
-        </div>
-        <div className="px-2">
-          <Product
-            _id="100004"
-            img={newArrFour}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
-            badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
-          />
-        </div>
-        <div className="px-2">
-          <Product
-            _id="100005"
-            img={newArrTwo}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
-            badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
-          />
-        </div>
-      </Slider>
+<div className="w-full pb-16">
+  <Heading heading="New Arrivals" />
+  <Slider {...settings}>
+    <div className="px-2">
+      <Product
+        _id="100001"
+        img={newArrOne}
+        productName="Round Table Clock"
+        price="44.00"
+        color="Black"
+        badge={true}
+        des="Stylish black round table clock — a perfect blend of elegance and functionality."
+      />
     </div>
+    <div className="px-2">
+      <Product
+        _id="100002"
+        img={newArrTwo}
+        productName="Smart Watch"
+        price="250.00"
+        color="Black"
+        badge={true}
+        des="Stay ahead of time with this sleek and feature-packed black smart watch."
+      />
+    </div>
+    <div className="px-2">
+      <Product
+        _id="100003"
+        img={newArrThree}
+        productName="Cloth Basket"
+        price="80.00"
+        color="Mixed"
+        badge={true}
+        des="Handy and stylish cloth basket — ideal for laundry or home storage needs."
+      />
+    </div>
+    <div className="px-2">
+      <Product
+        _id="100004"
+        img={newArrFour}
+        productName="Funny Toys for Babies"
+        price="60.00"
+        color="Mixed"
+        badge={false}
+        des="Bright and playful toys to keep your little ones happy and entertained."
+      />
+    </div>
+    <div className="px-2">
+      <Product
+        _id="100005"
+        img={newArrTwo}
+        productName="Funny Toys for Babies"
+        price="60.00"
+        color="Mixed"
+        badge={false}
+        des="Adorable and safe baby toys — perfect for endless fun and learning."
+      />
+    </div>
+  </Slider>
+</div>
+
   );
 };
 
