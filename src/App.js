@@ -17,7 +17,6 @@ import SignUp from "./pages/Account/SignUp";
 import Cart from "./pages/Cart/Cart";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
-
 import Offer from "./pages/Offer/Offer";
 import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
@@ -31,27 +30,24 @@ const Layout = () => {
       <SpecialCase />
       <ScrollRestoration />
       <Outlet />
-     
       <FooterBottom />
     </div>
   );
 };
+
 const router = createHashRouter(
   createRoutesFromElements(
-    <Route>
-      <Route path="/" element={<Layout />}>
-        {/* ==================== Header Navlink Start here =================== */}
-        <Route index element={<Home />}></Route>
-        <Route path="/shop" element={<Shop />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        
-        {/* ==================== Header Navlink End here ===================== */}
-        <Route path="/offer" element={<Offer />}></Route>
-        <Route path="/product/:_id" element={<ProductDetails />}></Route>
-        <Route path="/cart" element={<Cart />}></Route>
-        <Route path="/paymentgateway" element={<Payment />}></Route>
-      </Route>
+    <Route path="/" element={<Layout />}>
+      {/* ==================== Header Navlink Start here =================== */}
+      <Route index element={<Home />} />
+      <Route path="shop" element={<Shop />} />
+      <Route path="about" element={<About />} />
+      <Route path="contact" element={<Contact />} />
+      {/* ==================== Header Navlink End here ===================== */}
+      <Route path="offer" element={<Offer />} />
+      <Route path="product/:_id" element={<ProductDetails />} />
+      <Route path="cart" element={<Cart />} />
+      <Route path="paymentgateway" element={<Payment />} />
     </Route>
   )
 );

@@ -40,14 +40,14 @@ export const navBarList = [
 // =================== NavBarList End here ======================
 // =================== Special Offer data Start here ============
 export const SplOfferData = [
-  {
+ {
     _id: "201",
     img: spfOne,
     productName: "Cap for Boys",
     price: "35.00",
-    color: "Blank and White",
+    color: "Black and White",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "A stylish black and white cap designed for boys, perfect for casual wear and outdoor activities.",
   },
   {
     _id: "202",
@@ -56,7 +56,7 @@ export const SplOfferData = [
     price: "180.00",
     color: "Gray",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "A sleek gray tea table crafted with elegance and durability, ideal for modern living rooms.",
   },
   {
     _id: "203",
@@ -65,7 +65,7 @@ export const SplOfferData = [
     price: "25.00",
     color: "Mixed",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Comfortable over-ear headphones with mixed colors, offering high-quality sound for music and calls.",
   },
   {
     _id: "204",
@@ -74,7 +74,7 @@ export const SplOfferData = [
     price: "220.00",
     color: "Black",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "Premium black sunglasses with UV protection, combining fashion and functionality for sunny days.",
   },
 ];
 // =================== Special Offer data End here ==============
